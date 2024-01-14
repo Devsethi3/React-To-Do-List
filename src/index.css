@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+html, body{
+  width: 100%;
+  height: 100%;
+}
+.app-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.app{
+  width: 700px;
+  background: #ffffff07;
+  min-height: 60vh;
+  padding: 2rem;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, .5);
+  border-radius: 4px;
+}
+.app-heading{
+  font-size: 2.5rem;
+  margin: -4rem 0 2rem 0;
+  color: #6217d3;
+  font-weight: 900;
+}
+.input-group{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.input-group input{
+  width: 80%;
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 4px;
+  background: #0000000d;
+}
+.input-group button{
+  width: 20%;
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 4px;
+  background: #6217d3;
+  cursor: pointer;
+  color: #fff;
+}
+.table{
+  width: 100%;
+  margin-top: 2rem;
+}
+.table tr th,
+.table tr td{
+  border: 3px solid #6217d339;
+  padding: 8px 10px;
+}
+.table td:nth-child(2){
+  text-align: justify;
+  width: 400px;
+}
+.icon-wrapper, .app-button{
+  display: flex;
+  justify-content: center;
+}
+.icon{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: #00000010;
+  cursor: pointer;
+  font-weight: 700;
+}
+.ri-edit-line{
+  color: #00fa9a;
+}
+.ri-delete-bin-line{
+  color: #ff6565;
+}
+.clear-btn{
+  border: none;
+  outline: none;
+  padding: 12px 30px;
+  font-size: 1rem;
+  border-radius: 4px;
+  background: #6217d3;
+  cursor: pointer;
+  margin-top: 4rem;
+  color: #fff;
+}
+.app-button{
+  display: flex;
+  gap: 4rem;
+}
+.filters{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.filters button{
+  border: none;
+  outline: none;
+  padding: 8px 20px;
+  margin-top: 1rem;
+  border-radius: 4px;
+  background: #6217d3;
+  cursor: pointer;
+  color: #fff;
+}
+.completed-task {
+  text-decoration: line-through;
+  color: #888; /* Adjust the color as needed */
+  text-stroke: 1px #888; /* Add text stroke style */
+}
